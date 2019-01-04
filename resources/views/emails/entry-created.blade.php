@@ -1,0 +1,3 @@
+Your entry has been created...
+
+{{ $reminder->body }}
