@@ -17,7 +17,7 @@ class MailgunCreateTest extends TestCase
 
         $user = $reminder->user;
         $from = "{$user->name} <{$user->email}>";
-        $to = "Journal <{$reminder->id}@mailjournal.com";
+        $to = "Journal <{$reminder->id}@mailjournal.com>";
 
         $response = $this->json(
             'POST', 
